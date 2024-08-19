@@ -1,0 +1,177 @@
+body{
+    background-color:#eebd90;
+    display: grid;
+    place-items: center;
+   
+   
+}
+header{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+ .first{  
+    width: 100%; 
+    height: 65px;
+    background-color:#d08a49;
+   
+    /* margin: 10px ; */
+   margin-right: 0%;
+   margin-left: 0%; 
+   
+    box-shadow: 0 8px 3px #d08a49;
+    
+  
+    
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+#searchbar{
+    width: 30%;
+    height: 25px;
+    border-radius: 30px; 
+    border: 1px solid black;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 20px;
+     margin-left: 50%;
+    }
+   i{
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 29px;
+   }
+   #user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   }
+   
+ .menu_side{
+    width: 150px;
+    height: 650px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to bottom , #d08a49 ,  #9c5b30 , #9c5b30 );
+    margin-top: 65px ;
+    position: absolute;
+    margin-left: 0%;
+    box-shadow: 0  8px  #9c5b30;
+    
+ }
+ ul{
+   list-style: none;
+   
+ }
+
+    
+   
+
+ li{
+    color: white;
+    padding-top: 100px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+ }
+ li:hover{
+    color: rgb(87, 13, 13);
+ }
+ .song_side{
+    margin-top: 130px;
+    width: 100%;
+    height: 18%;
+    background-image: linear-gradient(to right ,  #9c5b30 , #9c5b30 , #ec9d67 );
+    box-shadow: 0px 3px 8px  #ec9d67;
+
+ }
+ #range{
+    margin-left: 400px;
+     margin-top: 70px;
+     width: 60%;
+     align-items: center;
+   }
+   #back{
+     width: 70px;
+     height: 70px;
+   margin-left: 50%;
+   margin-top: 30px;
+   }
+   #back:hover{
+              cursor: pointer;
+              color: yellow;
+   }
+   #play{
+     width: 70px;
+     height: 70px;
+     margin-left: 55%;
+     margin-top: 30px;
+   }
+   #play:hover{
+     cursor: pointer;
+     color:yellow;
+   }
+   #forward{
+     width: 70px;
+     height: 70px;
+     margin-left: 60%;
+     margin-top: 30px;
+   }
+   #forward:hover{
+     cursor: pointer;
+     color: yellow
+   }
+   .img_container{
+     width: 25rem;
+     height: 25rem;
+     margin: auto;
+   }
+   .main_div{
+     display: grid;
+     place-items: center;
+   }
+   #saiya{
+     width: 19%;
+     height: 40%;
+     margin-top: 150px;
+     margin-left: 690px;
+     border-radius: 50%;
+     position: absolute;
+     box-shadow: 0 1.2rem 3rem 0.5rem black;
+   }
+   
+   .anime{
+     animation: rotateplayer 3s linear infinite ;
+   }
+   @keyframes rotateplayer {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(360deg);
+     }
+   }
+   #title{
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 725px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+   #article{
+    position: absolute;
+    text-align: center;
+    margin-left: 769px;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
